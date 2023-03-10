@@ -1,0 +1,137 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgray;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+}
+
+.header_left {
+  display: flex;
+}
+
+.header_left > img {
+  object-fit: contain;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.header_search {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 20px;
+  color: gray;
+  background-color: #eef3f8;
+}
+
+.header_search > input {
+  outline: none;
+  border: none;
+  background: none;
+  width: 250px;
+}
+
+.header_right {
+  display: flex;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0px;
+  top: 47px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.dropdown-content a {
+  color: gray;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.topic{
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+.line {
+  border: 1px solid whitesmoke;
+}
+
+.dropdown-content a:hover {
+  background-color: white; 
+  color: black;
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.header_dropdown_profile {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.header_dropdown_profile > h2 {
+  font-size: 18px;
+}
+
+.header_dropdown_profile > h4 {
+  font-size: 12px;
+  color: gray;
+}
+
+.dropdown_content_header {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  padding: 5px;
+}
+
+.avatar_info {
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.avatar_info > h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.avatar_info > h4 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.dropdown-content > button {
+  margin: 5px;
+  border: 1px solid #0a66c2;
+  background-color: white;
+  color: #0a66c2;
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 5px 20px;
+  min-width: 250px;
+  cursor: pointer;
+}

@@ -1,0 +1,121 @@
+.widgets {
+  flex: 0.3;
+  height: fit-content;
+  position: sticky;
+  top: 70px;
+}
+
+.widgets_head {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.widgets_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.widgets_header > h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.widgets_article {
+  display: flex;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.widgets_article:hover {
+  background-color: whitesmoke;
+}
+
+.widgets_articleLeft {
+  color: #0177b7;
+  margin-right: 5px;
+}
+
+.widgets_articleLeft > .MuiSvgIcon-root {
+  font-size: 12px;
+}
+
+.widgets_articleRight {
+  flex: 1;
+}
+
+.widgets_articleRight > h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.widgets_articleRight > p{
+  font-size: 12px;
+  color: gray;
+}
+
+.widgets_showMore {
+  background-color: white;
+  color: gray;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 8px;
+}
+
+.widgets_showMore > p{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.widgets_showMore:hover {
+  background-color: whitesmoke;
+}
+
+.widgets_footer {
+  padding: 10px;
+  background-color: #f3f2ef;
+  font-size: 12px;
+  color: gray;
+  border: none;
+  margin-top: 20px;
+}
+
+.footer_topics {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.footer_topics >p:hover {
+  color: #0177b7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.trademark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+  justify-content: center;
+}
+
+.trademark > img {
+  width: 60px;
+  height: 15px;
+  margin-right: 3px;
+}
+
+.trademark > h5 {
+  font-weight: 600;
+}
